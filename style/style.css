@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: inherit;
 }
 
 .topo {
@@ -10,13 +9,13 @@
 }
 
 .conteudo-secundario {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px 0;
 }
 
 .conteudo-principal {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -48,8 +47,10 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    min-width: 130px;
+    min-width: 140px;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 5px;
 }
 
 .nivel-habilidade {
