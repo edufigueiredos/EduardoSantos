@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: inherit;
+}
+
+.conteudo-lateral {
+    width: 30%;
+    background-color: #aaa;
+}
+
+.conteudo-principal {
+    width: 70%;
+    background-color: #ddd;
+}
