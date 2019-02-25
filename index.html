@@ -5,103 +5,280 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style/basic.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Eduardo Figueiredo dos Santos</title>
 </head>
 
 <body>
-    <div class="container topo">
-        <section class="conteudo-secundario">
-            <div class="titulos">
-                <h1 class="nome">Eduardo Figueiredo dos Santos</h1>
-                <h3 class="cargo">Desenvolvedor Front-End</h3>
-            </div>
+    <div class="container">
+        <aside class="conteudo-esquerda">
+            <h1 id="nome" class="titulo">Eduardo<br>Figueiredo<br>dos Santos</h1>
 
-            <div class="sobre-mim">
-                <h2 class="titulo">
+            <!-- <div class="sobre-mim">
+                <h2 class="titulo-topo">
                     Sobre mim
                 </h2>
 
+                <p class="descricao">
+                    Sou granduando em Análise e Desenvolvimento de Sistemas, desenvolvedor Front-End com foco em
+                    Angular e profissional MCP certificado pela Microsoft.
+                </p>
+            </div> -->
+
+            <div class="informacoes">
+
+                <div class="contato bloco-informacao">
+                    <h2 class="titulo categoria">
+                        Contato
+                    </h2>
+
+                    <h3 class="informacao-contato">(21)96471-7070</h3>
+                    <h3 class="informacao-contato">Prata, Nova Iguaçu<br>Rio de Janeiro</h3>
+                    <h3 class="informacao-contato">eduardo_figueiredo@id.uff.br</h3>
+                </div>
+
+                <div class="habilidades bloco-informacao">
+                    <h2 class="titulo categoria">
+                        Tecnologias
+                    </h2>
+                    <div class="grafico-habilidades">
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Angular
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="angular" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                HTML 5
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="html5" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                CSS3
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="css3" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Bootstrap
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="bootstrap" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                SASS
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="sass" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Javascript
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="javascript" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Typescript
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="typescript" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                jQuery
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="jquery" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                .Net
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="aspnet" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Azure
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="azure" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Banco de dados
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="banco-de-dados" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade print-margin-top">
+                            <h3 class="titulo-habilidade">
+                                IIS
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="iis" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Visual Basic For Application (Excel)
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="vba" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <h2 class="titulo categoria">
+                            Hard Skills
+                        </h2>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                SCRUM
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="scrum" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                UX
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="ux" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                UI
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="ui" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+
+                        <div class="conteudo-habilidade">
+                            <h3 class="titulo-habilidade">
+                                Engenharia de Software
+                            </h3>
+                            <div class="nivel-habilidade">
+                                <div id="engenharia-software" class="barra-habilidade"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="conteudo-direita">
+            <h1 class='titulo linha-abaixo'>Formação Acadêmica</h1>
+            <div class="bloco-informacao">
+                <h3 class="sub-titulo">Unopar</h3>
+                <p>Análise e Desenvolvimento de Sistemas</p>
+                <p>Junho 2018 - Dezembro 2020</p>
+            </div>
+            <div class="bloco-informacao">
+                <h3 class="sub-titulo">Universidade Federal Fluminense</h3>
+                <p>Tecnologia em Sistemas de Informação</p>
+                <p>Aluno desde 2016 - Matrícula trancada</p>
+            </div>
+
+            <div class="bloco-informacao">
+                <h3 class="sub-titulo">Instituto Infnet</h3>
+                <p>MCSD App Builder</p>
+                <p>Dezembro 2017 - Agosto de 2018</p>
+            </div>
+
+            <h1 class="titulo linha-abaixo">Experiência Profissional</h1>
+            <div class="bloco-informacao">
+                <h3 class="sub-titulo">Estagiário em Desenvolvimento Front-End - Intuitive Care</h3>
+                <p>NOVEMBRO 2018 - ATUALMENTE</p>
+                <p>&nbsp; Desenvolvimento do sistema web de negociações hospitalar. Utilizando AngularJS, HTML5, CSS3,
+                    Javascript, D3.js (para a criação de gráficos complexos), Bootstrap e jQuery</p>
+            </div>
+
+            <div class="bloco-informacao">
+                <h3 class="sub-titulo">Estagiário em Desenvolvimento Front-End - Choice Technologies Holding Sàrl</h3>
+                <p>OUTUBRO 2017 - NOVEMBRO 2018</p>
                 <p>
-                    Sou desenvolvedor Front-End com foco em Angular, porém, estou expandindo meus horizontes.
-                    Sou autodidata, adoro um desafio novo, pois são com esses que mais aprendo,
-                    e estou sempre buscando aprender coisas novas.
-                    Meus próximos objetivos é dominar o desenvolvimento mobile e Back-End.
+                    &nbsp; Realizava a manutenção de sistemas externos usando ASP.Net MVC, procedures com PL-SQL no SQL
+                    Server.
+                </p>
+                <p class="print-margin-top">&nbsp; Desenvolvimento da parte Front-End do sistema de soluções inteligente para prevenção de perdas
+                    energéticas. Utilizando Angular 4, HTML5, CSS3, Typescript, Javascript, jQuery DevExtreme,
+                    HighChart.js e Bootstrap. Construções e modificação de procedures em PL-SQL com Oracle.
+                </p>
+                <p>
+                    &nbsp; Upload de sistemas no IIS.
                 </p>
             </div>
 
-            <div class="habilidades">
-                <h2 class="titulo">
-                    Habilidades
-                </h2>
-
-                <div class="grafico-habilidades">
-
-                    <div class="conteudo-habilidade">
-                        <h3 class="titulo-habilidade">
-                            Angular
-                        </h3>
-                        <div class="nivel-habilidade">
-                            <div id="angular" class="barra-habilidade"></div>
-                        </div>
-                    </div>
-
-                    <div class="conteudo-habilidade">
-                        <h3 class="titulo-habilidade">
-                            HTML 5
-                        </h3>
-                        <div class="nivel-habilidade">
-                            <div id="html5" class="barra-habilidade"></div>
-                        </div>
-                    </div>
-
-                    <div class="conteudo-habilidade">
-                        <h3 class="titulo-habilidade">
-                            CSS3
-                        </h3>
-                        <div class="nivel-habilidade">
-                            <div id="css3" class="barra-habilidade"></div>
-                        </div>
-                    </div>
-
-                    <div class="conteudo-habilidade">
-                        <h3 class="titulo-habilidade">
-                            Javascript
-                        </h3>
-                        <div class="nivel-habilidade">
-                            <div id="javascript" class="barra-habilidade"></div>
-                        </div>
-                    </div>
-
-                    <div class="conteudo-habilidade">
-                        <h3 class="titulo-habilidade">
-                            Typescript
-                        </h3>
-                        <div class="nivel-habilidade">
-                            <div id="typescript" class="barra-habilidade"></div>
-                        </div>
-                    </div>
-
-                    <div class="conteudo-habilidade">
-                        <h3 class="titulo-habilidade">
-                            jQuery
-                        </h3>
-                        <div class="nivel-habilidade">
-                            <div id="jquery" class="barra-habilidade"></div>
-                        </div>
-                    </div>
-
-                </div>
-
+            <div class="bloco-informacao">
+                <h3 class="sub-titulo">Estagiário em TI - Casa e Vídeo Rio de Janeiro S.A.</h3>
+                <p>OUTUBRO 2017 - NOVEMBRO 2018</p>
+                <p>&nbsp;
+                    Criação e manutenção de ferramentas para melhorar o trabalho logístico do Centro de
+                    Distribuições da empresa, utilizando Visual Basic for Applications e SQL (Oracle e SQL Server).
+                </p>
+                <p>&nbsp;
+                    Desenvolvimento e automatização de planilhas dinâmicas, com gráficos de produtividade, relatórios
+                    diários, semanais, mensais e anuais automáticos, com envio de e-mail para todos os setores responsáveis.
+                </p>
+                <p>&nbsp;
+                    Criação de formulários visuais para facilitar o cadastro, a visualização e a edição de dados
+                    contidas nas planilhas. Todos os dados eram lidos e salvos do banco de dados.
+                </p>
             </div>
 
-        </section>
-    </div>
+            <h1 class='titulo linha-abaixo print-margin-top'>Fatos e curiosidades</h1>
+            <div class="bloco-informacao">
+                <p>&nbsp; Sou um profissional MCP certificado em HTML5, CSS3 e Javascript com jQuery pela Microsoft, meu MCID é 14729706.</p>
+                <p>&nbsp; Gosto de jogos. Sou fã de Nintendo.</p>
+                <p>&nbsp; Estou sempre estudando para me manter atualizado e para aprender coisas novas.</p>
+                <p>&nbsp; Possuo 34 cursos concluídos na plataforma da Alura Cursos Online.</p>
+                <p>&nbsp; Busco desafios e problemas para melhorar meus conhecimentos e minhas habilidades.</p>
+                <p>&nbsp; Antes de trabalhar com desenvolvimento, fui Mecânico de Manutenção Industrial na empresa Bayer, de 2010 até 2016.</p>
+                <p>&nbsp; Tenho disponibilidade para viagens e talvez mudança de estado.</p>
+                <p>&nbsp; Carteira de habilicação B.</p>
+                <p>&nbsp; Este currículo foi construído usando HTML5 e CSS3, sem bootstrap.</p>
+            </div>
 
-    <div class="container principal">
-        <main class="conteudo-principal">
-            
         </main>
     </div>
 </body>

@@ -1,6 +1,10 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    /* padding-bottom: 20px; */
+    box-sizing: border-box;
 }
 
 .topo {
@@ -8,26 +12,62 @@
     color: white;
 }
 
-.conteudo-secundario {
-    width: 70%;
+.conteudo-esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.conteudo-direita {
+    width: 60%;
     margin: 0 auto;
+}
+
+.conteudo-direita, .conteudo-esquerda {
     padding: 20px 0;
 }
 
-.conteudo-principal {
-    width: 70%;
+#nome {
+    text-align: center;
+    font-weight: bold;
+}
+
+.categoria {
+    color: rgb(0, 143, 179);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.informacoes {
+    width: 90%;
+    text-align: center;
+}
+
+.titulo-habilidade, .informacao-contato {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.informacao-contato {
+    margin-bottom: 20px;
+}
+
+.bloco-informacao {
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    width: 75%;
     margin: 0 auto;
 }
 
 .grafico-habilidades {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.titulos {
-    margin-bottom: 20px;
-    text-align: center;
+    width: 100%;
+    flex-direction: column;
 }
 
 .sobre-mim {
@@ -35,12 +75,15 @@
 }
 
 .titulo {
-    text-align: center;
-    margin-bottom: 15px;
+    margin: 20px 0;
+    color: #005065;
+    font-weight: 600;
 }
 
-.sobre-mim p {
-    line-height: 1.5rem;
+.sub-titulo {
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2rem;
 }
 
 .conteudo-habilidade {
@@ -56,21 +99,22 @@
 .nivel-habilidade {
     display: block;
     width: 100%;
-    height: 30px;
-    margin-top: 10px;
-    border: 1px solid rgb(0, 114, 143);
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #005065;
     border-radius: 5px;
 }
 
 .barra-habilidade {
     display: block;
     height: 100%;
-    background-color: rgb(142, 232, 255);
-    border-radius: 5px;
+    background-color: rgb(0, 132, 165);
+    border-radius: 3px 0 0 3px;
 }
 
 #angular {
-    width: 75%;
+    width: 65%;
 }
 
 #html5 {
@@ -78,17 +122,121 @@
 }
 
 #css3 {
-    width: 85%;
+    width: 70%;
+}
+
+#bootstrap {
+    width: 35%;
+}
+
+#sass {
+    width: 40%;
 }
 
 #javascript {
-    width: 80%;
+    width: 75%;
 }
 
 #typescript {
-    width: 80%;
+    width: 70%;
 }
 
 #jquery {
-    width: 80%;
+    width: 75%;
+}
+
+#aspnet {
+    width: 50%;
+}
+
+#azure {
+    width: 30%;
+}
+
+#banco-de-dados {
+    width: 35%;
+}
+
+#iis {
+    width: 25%;
+}
+
+#vba {
+    width: 70%;
+}
+
+#scrum {
+    width: 60%;
+}
+
+#ux {
+    width: 70%;
+}
+
+#ui {
+    width: 60%;
+}
+
+#engenharia-software {
+    width: 50%;
+}
+
+.descricao, .bloco-informacao p {
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: black;
+    /* margin-bottom: 15px; */
+}
+
+.bloco-informacao p {
+    margin-bottom: 15px;
+}
+
+.bloco-informacao i {
+    margin-right: 10px;
+}
+
+.linha-abaixo {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #005065;
+}
+
+.linha-abaixo::before {
+    content: '';
+    margin-left: 10px;
+}
+
+.qualificacoes {
+    background-color: rgb(0, 176, 220);
+    position: relative;
+    top: -100px;
+    padding-top: 80px;
+    z-index: -2;
+    color: white;
+}
+
+.qualificacoes ul li {
+    color: white;
+}
+
+@media print {
+    div.print-margin-top {
+        margin-top: 70px;
+    }
+
+    p.print-margin-top {
+        padding-top: 20px;
+    }
+
+    h1.print-margin-top {
+        display: block;
+        margin-top: 250px;
+        padding-top: 50px;
+    }
+
+    .conteudo-esquerda {
+        height: 296.47vh;
+    }
+
+
 }
