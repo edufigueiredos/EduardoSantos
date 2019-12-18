@@ -126,7 +126,7 @@
 }
 
 #nativescript {
-    width: 45%;
+    width: 35%;
 }
 
 #bootstrap {
@@ -134,7 +134,7 @@
 }
 
 #sass {
-    width: 40%;
+    width: 70%;
 }
 
 #javascript {
@@ -146,11 +146,11 @@
 }
 
 #jquery {
-    width: 75%;
+    width: 70%;
 }
 
 #aspnet {
-    width: 50%;
+    width: 35%;
 }
 
 #azure {
@@ -166,7 +166,7 @@
 }
 
 #vba {
-    width: 70%;
+    width: 40%;
 }
 
 #scrum {
@@ -277,6 +277,10 @@
 
     .espacamento-top {
         padding-top: 20px;
+    }
+
+    .print-margin-top-experiencia {
+        margin-top: 160px;
     }
 
 }
