@@ -113,8 +113,12 @@
     border-radius: 3px 0 0 3px;
 }
 
+.espacamento {
+    display: none;
+}
+
 #angular {
-    width: 70%;
+    width: 65%;
 }
 
 #html5 {
@@ -122,19 +126,15 @@
 }
 
 #css3 {
-    width: 75%;
-}
-
-#nativescript {
-    width: 35%;
-}
-
-#bootstrap {
-    width: 35%;
+    width: 80%;
 }
 
 #sass {
-    width: 75%;
+    width: 80%;
+}
+
+#angular-material {
+    width: 55%;
 }
 
 #javascript {
@@ -142,35 +142,15 @@
 }
 
 #typescript {
-    width: 70%;
+    width: 75%;
 }
 
 #nodejs {
-    width: 30%;
+    width: 45%;
 }
 
-#jquery {
-    width: 70%;
-}
-
-#aspnet {
+#flutter {
     width: 35%;
-}
-
-#azure {
-    width: 30%;
-}
-
-#banco-de-dados {
-    width: 35%;
-}
-
-#iis {
-    width: 25%;
-}
-
-#vba {
-    width: 40%;
 }
 
 #scrum {
@@ -190,11 +170,11 @@
 }
 
 #ingles {
-    width: 35%;
+    width: 40%;
 }
 
 #espanhol {
-    width: 40%;
+    width: 45%;
 }
 
 .descricao, .bloco-informacao p {
@@ -279,11 +259,15 @@
         height: 296.47vh;
     }
 
+    .espacamento {
+        display: block;
+    }
+
     .espacamento-top {
         padding-top: 20px;
     }
 
-    .print-margin-top-experiencia {
+    .print-margin-top-large {
         margin-top: 160px;
     }
 
