@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -97,6 +101,7 @@
 }
 
 .nivel-habilidade {
+    position: relative;
     display: block;
     width: 100%;
     height: 20px;
@@ -107,10 +112,13 @@
 }
 
 .barra-habilidade {
+    position: absolute;
+    top: -1px;
+    left: -1px;
     display: block;
-    height: 100%;
+    height: 107%;
     background-color: rgb(0, 132, 165);
-    border-radius: 3px 0 0 3px;
+    border-radius: 5px;
 }
 
 .espacamento {
@@ -118,7 +126,7 @@
 }
 
 #angular {
-    width: 65%;
+    width: 70%;
 }
 
 #html5 {
@@ -166,7 +174,7 @@
 }
 
 #engenharia-software {
-    width: 50%;
+    width: 65%;
 }
 
 #ingles {
