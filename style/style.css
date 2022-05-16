@@ -126,7 +126,7 @@
 }
 
 #angular {
-    width: 75%;
+    width: 80%;
 }
 
 #html5 {
@@ -134,23 +134,23 @@
 }
 
 #css3 {
-    width: 80%;
+    width: 85%;
 }
 
 #sass {
-    width: 80%;
+    width: 85%;
 }
 
 #angular-material {
-    width: 55%;
+    width: 75%;
 }
 
 #javascript {
-    width: 75%;
+    width: 85%;
 }
 
 #typescript {
-    width: 75%;
+    width: 85%;
 }
 
 #nodejs {
@@ -158,7 +158,7 @@
 }
 
 #flutter {
-    width: 35%;
+    width: 40%;
 }
 
 #scrum {
@@ -174,15 +174,15 @@
 }
 
 #engenharia-software {
-    width: 65%;
+    width: 70%;
 }
 
 #ingles {
-    width: 40%;
+    width: 60%;
 }
 
 #espanhol {
-    width: 45%;
+    width: 65%;
 }
 
 .descricao, .bloco-informacao p {
